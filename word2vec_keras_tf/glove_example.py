@@ -15,7 +15,7 @@ globalCost = 0
 
 
 def buildCorpusAndVocab():
-    f = open("C:\\Users\\atifh\\Desktop\\masc_wordsense\\data\\Full_set\\round1\\launch-v\\launch-v.txt")
+    f = open("launch-v.txt")
     lines = f.readlines()
     corpus = ""
     for line in lines:
